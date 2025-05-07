@@ -22,13 +22,13 @@ RegisterNumber: 212224230134
 */
 
 def gcd():
-    n1,n2=int(input()),int(input())
-    if n1>n2:
-        smaller=n2
+    a,b=int(input()),int(input())
+    if a>b:
+        small_number=b
     else:
-        smaller=n1
-    for i in range(1,smaller+1):
-        if(n1%i==0 and n2%i==0):
+        small_number=a
+    for i in range (1,small_number+1):
+        if(a%i==0 and b%i==0):
             hcf=i
     print("GCD of two numbers is:",hcf)
 
@@ -36,7 +36,7 @@ def gcd():
 
 ## Output:
 
-![Screenshot 2025-05-07 141913](https://github.com/user-attachments/assets/1c8e5358-ad0f-4683-82b7-e054ddb26c1c)
+![Screenshot 2025-05-07 153814](https://github.com/user-attachments/assets/78809ba2-b21a-488d-9654-6ee161e9220d)
 
 ## Result:
 Thus the program to find the GCD of two numbers is written and verified using python programming.
